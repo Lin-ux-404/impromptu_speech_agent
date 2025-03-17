@@ -67,12 +67,13 @@ class AzureOpenAISpeechClient:
         await websocket.send(json.dumps({
             "type": "session.update",
             "session": {
+                "max_response_output_tokens": 200,
+                "temperature": 0.5,
                 "voice": "shimmer",
-                "instructions": "Please speak clearly and audibly.",
                 "input_audio_format": "pcm16",
                 "turn_detection": {
                     "type": "server_vad",
-                    "threshold": 0.9,
+                    "threshold": 0.5,
                     "prefix_padding_ms": 300,
                     "silence_duration_ms": 200
                 },
@@ -104,7 +105,7 @@ class AzureOpenAISpeechClient:
             "type": "response.create",
             "response": {
                 "modalities": ["text"],
-                "instructions": "Please assist the user.",
+                "instructions": "You are an AI assistant who helps users come up with simple and open-ended topics for an impromptu speech. Do not give suggestions on how they can talk about the porposed topic. Please keep you answers short and simple.",
             }
         }))
 
