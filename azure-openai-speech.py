@@ -67,8 +67,7 @@ class AzureOpenAISpeechClient:
         await websocket.send(json.dumps({
             "type": "session.update",
             "session": {
-                "max_response_output_tokens": 200,
-                "temperature": 0.5,
+                "max_response_output_tokens": 150,
                 "voice": "shimmer",
                 "input_audio_format": "pcm16",
                 "turn_detection": {
