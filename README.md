@@ -83,3 +83,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Azure OpenAI for providing the real-time audio API
 - OpenAI's Whisper model for speech recognition
 - The Python WebSockets community
+
+## Resources and References
+
+### Azure AI Agents
+- [Exploring the Semantic Kernel ChatCompletionAgent](https://learn.microsoft.com/en-us/semantic-kernel/frameworks/agent/chat-completion-agent?pivots=programming-language-python)
+- [Exploring the Semantic Kernel OpenAIAssistantAgent](https://learn.microsoft.com/en-us/semantic-kernel/frameworks/agent/assistant-agent?pivots=programming-language-python)
+- [Exploring the Semantic Kernel AzureAIAgent](https://learn.microsoft.com/en-us/semantic-kernel/frameworks/agent/azure-ai-agent?pivots=programming-language-python)
+- [Exploring Agent Collaboration in AgentChat](https://learn.microsoft.com/en-us/semantic-kernel/frameworks/agent/agent-chat?pivots=programming-language-python)
+
+### Semantic Kernel
+- [Understanding the kernel](https://learn.microsoft.com/en-us/semantic-kernel/concepts/kernel?pivots=programming-language-python)
+- [An Overview of the Agent Architecture](https://learn.microsoft.com/en-us/semantic-kernel/frameworks/agent/agent-architecture?pivots=programming-language-python)
+- [Semantic Kernel Components](https://learn.microsoft.com/en-us/semantic-kernel/concepts/semantic-kernel-components?pivots=programming-language-python)
+- [Function calling with chat completion](https://learn.microsoft.com/en-us/semantic-kernel/concepts/ai-services/chat-completion/function-calling/?pivots=programming-language-python)
+
+### Additional Resources
+- [Develop an Azure AI agent with the Semantic Kernel SDK](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/04-semantic-kernel.html#create-an-azure-ai-foundry-project)
