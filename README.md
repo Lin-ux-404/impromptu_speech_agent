@@ -46,7 +46,12 @@ AZURE_OPENAI_CHAT_DEPLOYMENT="your-deployment"
 
 Run the speech agent:
 ```bash
-python azure-openai-speech.py
+python azure_openai_speech.py
+```
+
+run the sk agent sample with:
+```bash
+streamlit run sk_agent_sample.py
 ```
 
 Once started, you can:
@@ -57,7 +62,7 @@ Once started, you can:
 
 ## Configuration
 
-The agent can be configured by modifying the following parameters in `azure-openai-speech.py`:
+The agent can be configured by modifying the following parameters in `azure_openai_speech.py`:
 
 - `sample_rate`: Audio sampling rate (default: 24000)
 - `chunk_size`: Audio processing chunk size (default: 2400)
