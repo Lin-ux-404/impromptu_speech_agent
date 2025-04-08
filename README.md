@@ -32,7 +32,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. Install required packages:
 ```bash
-pip install websockets python-dotenv pyaudio numpy
+pip install -r requirements.txt
 ```
 
 4. Create a .env file with your Azure OpenAI credentials:
